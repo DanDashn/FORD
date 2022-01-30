@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Meow+Script&family=Montagu+Slab:wght@200&family=Nanum+Myeongjo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.container-1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+    padding: 4%;
+    border: 1px solid white;
+}
+.container-1:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+.sel-text{
+    color: white;
+    font-size: 2em;
+}
+
+.sel-punkts{
+    background-color: black;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+.sel-punkts:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+.opts{
+    color: #48DBFB;
+}
+    
+a.home-page {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    line-height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    padding: 11.5px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+a.home-page:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+
+a.home-page:hover{
+    color: #232323;
+    background-color: white;
+}
+
+input.raschet-2 {
+    position: absolute;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    padding: 15px;
+    padding-left: 14%;
+    padding-right: 14%; 
+}
+
+input.raschet-2:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+
+input.raschet-2:hover{
+    color: #232323;
+    background-color: white;
+}
+
+input.raschet-2:active{
+    color: black;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+
+
+
