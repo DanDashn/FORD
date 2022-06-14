@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif; 
+}
+.head-container{
+    width: 100%;
+    height: 80px;
+    background-attachment: fixed;
+    position: fixed;
+    z-index: 2;
+}
+.glav-nav1{ 
+    position: absolute;
+    top: 0px;
+    display: flex;
+    width: 93%;
+    justify-content: center;
+    flex-wrap: wrap;
+    right: 1%;
+}   
+a.glav-link{   
+    flex: 1;
+    float: left;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin: 0;
+    vertical-align: middle;
+    font-size: 110%;
+    color: #0984E3;
+    
+    text-align: center;
+    transition: color 1s ease-out;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    flex-basis: 10%;
+}
+a.glav-link:hover{
+    color: white;
+    background-color: #0984E3; 
+}
+
+#ford-tr{
+    position: absolute;
+    top: 11.4%;
+    left: 0%;
+    width: 100%;
+    justify-content: flex-start;
+}
+h1{
+    position: absolute;
+    color: white;
+    font-size: 5em;
+    font-family: sans-serif;
+    top: 40%;
+    left: 7%;
+}
+h1:hover{
+    opacity: 0.3;
+}
+span{ 
+    font-family: Montagu Slab;
+}
+.blok-1{
+    z-index: 1;
+}
+.blok-2{
+    width: 100%; 
+    background-color: black;
+    position: absolute;
+    top: 135%;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    height: 60%;
+    font-size: 3em;
+    letter-spacing:10px;
+    font-family: sans-serif;
+}
+.uznat{
+    position: absolute;
+    top: 175%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%); 
+}
+.uznat-link{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #000;
+    background-color: #74B9FF;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.uznat-link:hover{
+    color: #74B9FF;
+    background-color: white;
+}
+.blok-4-glav{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+    font-family: sans-serif;
+    background-color: white;
+    font-weight: 200;
+}
+#blok-4-span{
+    font-family: sans-serif;
+    font-weight: 600; 
+    line-height: 50px;
+}
+.blok-5{
+    position: absolute;
+    top: 230%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding-bottom: 50px;
+}
+figure{
+    flex-basis: 20%;
+    justify-content: center;
+    text-align: center;
+}
+.blok-5-link{
+    color: #74B9FF;
+    font-size: 25px;
+    font-family: sans-serif;
+    transition: color 0.5s ease-in;
+}
+
+.blok-5-link:hover{
+    color: black;
+    text-shadow: 10px 10px 5px silver;
+}
+
+.blok-6{
+    top:160%;
+
+}
+
+#ford-v-zavode{
+    position: absolute; 
+    width: 100%;
+    top: 264%;
+}
+h2{
+    position: absolute; 
+    top: 300%;
+    left: 50%;
+    font-family:sans-serif; 
+    color: white;
+    transform: translate(-50%);
+    font-size: 5em;
+    text-align: center;
+}
+h2:hover{
+        opacity: 0.3;
+}
+.sozdat{
+    position: absolute;
+    top: 335%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+.sozdat-ford{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #000;
+    background-color: #74B9FF;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.sozdat-ford:hover{
+     color: #74B9FF;
+    background-color: white;
+}
+.blok-7{
+    position: absolute;
+    top: 380%;
+    height: 65%;
+    width: 100%;
+    background-color: white;
+}
+
+.loc-div{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border: 3px solid #0984E3;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle; 
+    background-color: rgba(9,132,227,0.2);
+}
+.location{
+    position: relative;
+    top: 15%;
+}
+.naiti{
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.naiti::after{
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 1px;
+    background-color: #0984E3;
+    left: 110%;
+    bottom: -7px;
+}
+.poisk-diler{
+    position: absolute;
+    top: 46%;
+    left: 60%;
+    height: 10%;
+    width: 20%;
+    border: none;
+    text-align: center;
+    background-color: rgba(9,132,227,0.2);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.poisk{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    height: 10%;
+    width: 20%;
+    color: white;
+    background-color: #0984E3;
+    border: none;
+    font-size: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.foot-nav{
+    width: 100%;
+    height: 13%;
+    background: #444444;
+    position: absolute;
+    top: 444%;
+    z-index: 2;
+}
+.foot-nav2{
+    position: absolute;
+    top:50%;
+    right: 1%;  
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 0;
+}
+.second-link{   
+    font-family: sans-serif;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin: 0;
+    font-size: 120%;
+    color: white;
+    transition: color 1s ease-out;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.second-link:hover{
+    color: #444444;
+    background-color: white;    
+}
+span.popular{
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.poisk-icon{
+    position: absolute;
+    top:50%; 
+    left: -45%;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+.footer-second-nav{
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    background: #444444;
+    background-attachment: fixed;
+    position: absolute;
+    top: 450%;
+    z-index: 2;
+}
+.footer-second-nav-blok{
+    position: absolute;
+    right: 7%;  
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.posik-po-saitu{
+    position: absolute;
+    top:50%; 
+    left: -65%;
+    height: 40px;
+    width: 65%;
+    transform: translate(0, -50%);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    border: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    font-size: 30px;
+}
+.posik-po-saitu:hover{
+    background-color: white;
+}
+.foot-posl-link{   
+    font-family: sans-serif;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border: none;
+    margin: 0;
+    font-size: 120%;
+    color: white;
+    transition: color 1s ease-out;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.foot-posl-link:hover{
+    color: #444444;
+    background-color: white;    
+}
+.foot-phot{
+    position: absolute;
+    right: 1%;
+}
+.avtor{
+    position: absolute;
+    font-family: sans-serif;
+    float: right;
+    font-size: 1.3em;
+    color: #6B6B6B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 28px;
+}
+.avtor2{
+    position: absolute;
+    font-family: sans-serif;
+    float: right;
+    font-size: 1.3em;
+    color: #6B6B6B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 28px;
+}

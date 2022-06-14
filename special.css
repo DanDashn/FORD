@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Meow+Script&family=Montagu+Slab:wght@200&family=Nanum+Myeongjo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: black;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    text-align: center;
+}
+.spec-text{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #95c4f4;
+    text-align: center;
+
+}
+
+.container-1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+    padding: 4%;
+    border: 1px solid white;
+    background: -webkit-linear-gradient(45deg, #000 80%, #74B9FF 100%);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.container-1:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+div.box-1{
+    flex: 1;
+    background-size: 384px 216px;
+    border: 1px solid silver;
+    margin: 10px;
+    padding-left: 3%;
+}
+div.box-1:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+div .vibor{
+    border: none;
+    font-size: 3em;
+    float: right;
+    background: #74B9FF;
+    color: black;
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+div .vibor:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+h2{
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+}
+span{
+    text-decoration: line-through;
+    font-size: 0.5em;
+    color: #838383;
+}
+p.back{
+    color: #74B9FF;
+    width: 500px;
+    float: left; 
+    font-size: 1.5em;
+}
+img{
+    border-bottom: 1px solid #74B9FF;
+}
+    
+a.home-page {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+    line-height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    padding: 11.5px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+a.home-page:hover{
+    box-shadow: 0 0 5px #74B9FF, 0 0 25px #74B9FF, 0 0 50px #74B9FF, 0 0 200px #74B9FF;
+}
+
+a.home-page:hover{
+    color: #232323;
+    background-color: white;
+}
+
+.empty{
+    position: absolute;
+    top: 120%;
+    height: 400px;
+    width: 200px;
+}
+
+    
+
